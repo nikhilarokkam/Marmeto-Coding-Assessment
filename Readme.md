@@ -1,4 +1,4 @@
-# Marmetto Coding Assessment 
+# Marmeto Coding Assessment 
 ## Project Title: Product Catalog Web Application
 
 This is a simple web application for browsing and displaying products categorized into Men, Women, and Kids sections. It utilizes HTML, CSS, and JavaScript to create a dynamic interface where users can switch between categories using tabs and view products accordingly.
