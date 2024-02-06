@@ -26,6 +26,9 @@ The project is deployed and accessible online. You can view it [here](https://ni
    <li>Each product card displays details about the product, including its image, title, vendor, price, and discount percentage.</li>
 </ol>
 
+## Screenshot
+
+![screencapture-nikhilarokkam-github-io-Marmetto-Coding-Assessment-2024-02-06-14_36_51](https://github.com/nikhilarokkam/Marmetto-Coding-Assessment/assets/115566678/ad57b795-b6be-4e72-8c51-6dd16cb2e27a)
+
 ## Credits
-- This project was created as a demonstration of web development skills by [Your Name].
 - Fonts used: Inter (from Google Fonts)
