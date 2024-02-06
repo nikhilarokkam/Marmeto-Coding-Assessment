@@ -1,67 +1,31 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+# Marmetto Coding Assessment 
+## Project Title: Product Catalog Web Application
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+This is a simple web application for browsing and displaying products categorized into Men, Women, and Kids sections. It utilizes HTML, CSS, and JavaScript to create a dynamic interface where users can switch between categories using tabs and view products accordingly.
 
-## Getting Started
+## Features
+- <b>Responsive Design:</b> The application is designed to be responsive and adjust to different screen sizes using media queries.
+- <b>Tab Navigation:</b> Users can switch between different product categories (Men, Women, Kids) using tab buttons.
+- <b>Dynamic Product Display:</b> Products are fetched from an API and dynamically displayed on the page based on the selected category.
+- <b>Product Information:</b> Each product card includes information such as the product image, title, vendor, price, discount percentage, and an option to add the product to the cart.
+- <b>API Integration:</b> Products are fetched from a mock API endpoint and displayed on the page.
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
+## Technologies Used
+- <b>HTML:</b> Structuring the web page content.
+- <b>CSS:</b> Styling the layout and appearance of the web page.
+- <b>JavaScript:</b> Handling user interactions, fetching data from the API, and dynamically updating the UI.
 
-2. **Navigate to Project Directory:**
+## Deployment
+The project is deployed and accessible online. You can view it [here](https://www.google.com).
 
-3. **Explore the Structure:**
-Take a moment to review the project structure:
+## How to Use
+<ol>
+   <li>Clone the repository to your local machine.</li>
+   <li>Open the index.html file in a web browser.</li>
+   <li>Click on the tabs (Men, Women, Kids) to browse products in different categories.</li>
+   <li>Each product card displays details about the product, including its image, title, vendor, price, and discount percentage.</li>
+</ol>
 
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
-  
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
-
-## Development and Testing
-
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
-
-
----
-## Submission Guidelines
-
-### Option 1: GitHub Repository
-
-1. Create a new public repository on GitHub.
-2. Upload your project files (index.html, style.css, script.js) to the repository.
-3. Write a brief description of your project in the README.md file.
-4. Share the repository URL with us.
-
-### Option 2: ZIP File on Google Drive
-
-1. Create a ZIP file of your entire project.
-2. Upload the ZIP file to your Google Drive.
-3. Share the public link to the ZIP file via email.
-
-## Hosting (Bonus)
-You can earn bonus points by hosting your project on a free hosting platform such as GitHub Pages or Netlify.
-
-## Important Notes
-
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
-
-Feel free to reach out to invigilator at `rishabh@marmeto.com` if you have any questions. Good luck! We look forward to reviewing your submission.
+## Credits
+- This project was created as a demonstration of web development skills by [Your Name].
+- Fonts used: Inter (from Google Fonts)
