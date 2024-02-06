@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700&display=swap");
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto the next line if there's not enough space */
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+}
+
+.tabs {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 20px; /* Add margin at the bottom to separate from product cards */
+}
+
+.tabs button {
+  cursor: pointer;
+  padding: 8px 20px; /* Adjust padding for smaller screens */
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.tabs button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .tabs {
+      flex-wrap: wrap; /* Allow tabs to wrap onto the next line */
+  }
+
+  .tabs button {
+      flex-basis: 100%; /* Set the width to 100% for smaller screens */
+      margin-bottom: 5px; /* Add margin between wrapped buttons */
+  }
+}
+
+@media (min-width: 768px) {
+  .tabs button {
+      flex: 1; /* Make tab buttons grow to occupy equal width */
+      max-width: 200px; /* Set maximum width for tab buttons */
+  }
+}
+
+
+.product-card {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+  /* height: 697.55px; */
+  height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.badge-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.badge {
+  background-color: #ff9800;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.product-card img {
+  /* width: 100%; 
+  height: auto;  */
+  width: 250px;
+  height: 550px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.vendor-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vendor-price p {
+  flex: 1;
+}
+
+.vendor-price strong {
+  font-weight: bold; /* Make the vendor name bold */
+}
+
+.compare-price {
+  text-decoration: line-through; /* Add a line-through decoration to the compare price */
+}
+
+.discount-compare {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount-compare p {
+  flex: 1;
+}
+
+.discount-compare strong {
+  font-weight: bold; /* Make the vendor name bold */
+}
+
+.discount-percentage {
+  color: red; /* Set the color of the discount percentage to red */
+}
+
+
+.add-to-cart-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: auto; /* Push the button to the bottom of the card */
+}
+
+
+@media (max-width: 767px) {
+  .product-card {
+      width: 100% !important; /* Ensure full width on smaller screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .product-card {
+      width: 48% !important; /* Adjust width for medium-sized screens */
+  }
+}
