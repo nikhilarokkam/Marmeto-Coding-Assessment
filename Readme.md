@@ -16,7 +16,7 @@ This is a simple web application for browsing and displaying products categorize
 - <b>JavaScript:</b> Handling user interactions, fetching data from the API, and dynamically updating the UI.
 
 ## Deployment
-The project is deployed and accessible online. You can view it [here](https://nikhilarokkam.github.io/Marmetto-Coding-Assessment/). 
+The project is deployed and accessible online. You can view it [here](https://nikhilarokkam.github.io/Marmeto-Coding-Assessment/). 
 
 ## How to Use
 <ol>
